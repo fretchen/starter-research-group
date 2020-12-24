@@ -34,7 +34,7 @@
   
     
   
-  <meta name="description" content="My research group description.">
+  <meta name="description" content="Investigating synthetic quantum systems with ultracold matter.">
 
   
   <link rel="alternate" hreflang="en-us" href="/">
@@ -63,6 +63,9 @@
 
   
   
+  
+  <script src="/js/mathjax-config.js"></script>
+  
 
   
   
@@ -80,6 +83,14 @@
     
       
     
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
     
 
     
@@ -194,9 +205,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -242,12 +253,12 @@
   
 
   
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="CoQuMa Research Group">
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="SynQS Research Collaboration">
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu7e36881ff34112d4b7ce9732fdafadd8_36497_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu7e36881ff34112d4b7ce9732fdafadd8_36497_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="/">
 
@@ -264,11 +275,14 @@
   
   <meta property="twitter:card" content="summary">
   
-  <meta property="og:site_name" content="CoQuMa Research Group">
+  <meta property="twitter:site" content="@synqs">
+  <meta property="twitter:creator" content="@synqs">
+  
+  <meta property="og:site_name" content="SynQS Research Collaboration">
   <meta property="og:url" content="/">
-  <meta property="og:title" content="CoQuMa Research Group">
-  <meta property="og:description" content="My research group description."><meta property="og:image" content="/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:title" content="SynQS Research Collaboration">
+  <meta property="og:description" content="Investigating synthetic quantum systems with ultracold matter."><meta property="og:image" content="/images/icon_hu7e36881ff34112d4b7ce9732fdafadd8_36497_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="/images/icon_hu7e36881ff34112d4b7ce9732fdafadd8_36497_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     <meta property="og:updated_time" content="2030-06-01T13:00:00&#43;00:00">
   
@@ -278,7 +292,13 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite","url": ""
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": ""
 }
 </script>
 
@@ -287,20 +307,20 @@
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": "EducationalOrganization",
   "@id": "",
-  "name": "CoQuMa Research Group",
-  "logo": "/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_2.png",
+  "name": "SynQS Research Collaboration",
+  "logo": "/images/icon_hu7e36881ff34112d4b7ce9732fdafadd8_36497_192x192_fill_lanczos_center_2.png",
   
   
   
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "450 Serra Mall",
-    "addressLocality": "Stanford",
-    "addressRegion": "CA",
-    "postalCode": "94305",
-    "addressCountry": "US"
+    "streetAddress": "Im Neuenheimer Feld 227",
+    "addressLocality": "Heidelberg",
+    "addressRegion": "Baden-Württemberg",
+    "postalCode": "69120",
+    "addressCountry": "DE"
   },
   
   "telephone": "888 888 88 88",
@@ -312,6 +332,36 @@
 
 
   
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "rgb(255, 255, 255)"
+        },
+        "button": {
+          "background": "rgb(255, 255, 255)",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
 
 
   
@@ -320,12 +370,12 @@
 
 
 
-  <title>CoQuMa Research Group</title>
+  <title>SynQS Research Collaboration</title>
 
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper  ">
 
   
   
@@ -349,7 +399,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
         
       </div>
 
@@ -384,7 +435,7 @@
 
     
     <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">CoQuMa Research Group</a>
+      <a class="navbar-brand" href="/">SynQS Research Collaboration</a>
     </div>
     
 
@@ -397,13 +448,13 @@
 
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">CoQuMa Research Group</a>
+      <a class="navbar-brand" href="/">SynQS Research Collaboration</a>
     </div>
     
 
     
     
-    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
       
       <ul class="navbar-nav d-md-inline-flex">
@@ -424,14 +475,10 @@
 
         
           
-            
-            
-          
-          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/post"><span>News</span></a>
+          <a class="nav-link  active" href="/"><span>Home</span></a>
         </li>
 
         
@@ -461,37 +508,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/people"><span>People</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/event"><span>Events</span></a>
+          <a class="nav-link " href="/research"><span>Research</span></a>
         </li>
 
         
@@ -551,6 +568,66 @@
         
 
         <li class="nav-item">
+          <a class="nav-link " href="/teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/people"><span>People</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
           <a class="nav-link " href="/contact"><span>Contact</span></a>
         </li>
 
@@ -565,6 +642,10 @@
 
     <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
       
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
       
 
       
@@ -607,6 +688,100 @@
 
 
 
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+      
+      
+    
+  
+
+  
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="image" class="home-section wg-blank dark fullscreen" style="padding: 20px 0 20px 0;" >
+   <div class="home-section-bg  bg-image" style="background-image:  url(&#39;media/coders.jpg&#39;);background-size: cover;background-position: center;"></div>
+    <div class="container">
+
+    
+      <div class="row  justify-content-center">
+      
+        
+          <div class="col-12 section-heading text-center">
+            <h1>SynQS Research Collaboration</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+  <div class="col-12">
+    <p>Our research mission is to achieve a deeper understanding and precise control of synthetic quantum systems.</p>
+
+  </div>
+
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
 
   
   
@@ -667,11 +842,11 @@
 
 
     <h1 class="hero-title">
-      Wowchemy Research Group
+      SynQS Research Collaboration
     </h1>
 
     
-    <div class="hero-lead"><p>The Wowchemy Research Group has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.</p>
+    <div class="hero-lead"><p>Our research mission is to achieve a deeper understanding and precise control of synthetic quantum systems.</p>
 </div>
     
 
@@ -837,7 +1012,7 @@
     
       
     
-    Dec 2, 2020
+    2020-12-02
   </span>
   
 
@@ -916,7 +1091,7 @@
     
       
     
-    Dec 1, 2020
+    2020-12-01
   </span>
   
 
@@ -970,92 +1145,6 @@
   
 
 </div>
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-    
-    
-    
-    
-    
-    
-      
-      
-    
-    
-      
-      
-    
-  
-
-  
-    
-    
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="image" class="home-section wg-blank dark fullscreen" style="padding: 20px 0 20px 0;" >
-   <div class="home-section-bg  bg-image" style="background-image:  url(&#39;media/coders.jpg&#39;);background-size: cover;background-position: center;"></div>
-    <div class="container">
-
-    
-      <div class="row  justify-content-center">
-      
-    
-
-      
-
-
-
-  <div class="col-12">
-    
-  </div>
-
 
 
     
@@ -1149,6 +1238,10 @@
       
 
       
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+      
 
     
 
@@ -1159,17 +1252,50 @@
 
     
     
-    <script>const code_highlighting = false;</script>
+    <script>const code_highlighting = true;</script>
     
 
     
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
 
     
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
 
     
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
     
 
     
@@ -1206,10 +1332,12 @@
     
     
     
+      
     
     
     
-    <script src="/js/wowchemy.min.17933aeaca1aa3585c6fde5371c9f1d2.js"></script>
+    
+    <script src="/js/wowchemy.min.ca606e186e454568cb2c38dc46dfab45.js"></script>
 
     
 
