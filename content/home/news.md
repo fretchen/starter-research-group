@@ -1,24 +1,25 @@
----
-# Documentation: https://wowchemy.com/docs/page-builder/
-widget: pages
-headless: true
-weight: 20
++++
+widget = "blank"
+headless = true  # This file represents a page section.
+active = true  # Activate this widget? true/false
+weight = 65  # Order that this section will appear.
 
-title: Latest News
-subtitle:
+title = "News"
+subtitle = ""
 
-content:
-  count: 5
-  filters:
-    author: ""
-    category: ""
-    exclude_featured: false
-    publication_type: ""
-    tag: ""
-  offset: 0
-  order: desc
-  page_type: post
-design:
-  view: 3
-  columns: "1"
----
+[design]
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns = "2"
+
+# [design.background]
+#   color = "white"
+
+[advanced]
+ # Custom CSS.
+ css_style = ""
+
+ # CSS class.
+ css_class = ""
++++
+
+<a class="twitter-timeline" data-height="600" data-width="400" data-chrome="transparent" href="https://twitter.com/synqs">Tweets by SynQS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
