@@ -30,36 +30,29 @@ subtitle = ""
   #   Uncomment (by removing `#`) an option to apply it.
   #   Choose a light or dark text color by setting `text_color_light`.
   #   Any HTML color name or Hex value is valid.
-  
+
   # Background color.
   # color = "navy"
-  
+
   # Background gradient.
   # gradient_start = "DeepSkyBlue"
   # gradient_end = "SkyBlue"
-  
+
   # Background image.
   # image = "background.jpg"  # Name of image in `static/img/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
   # text_color_light = true  
-  
+
 [advanced]
- # Custom CSS. 
+ # Custom CSS.
  css_style = ""
- 
+
  # CSS class.
  css_class = ""
 +++
 
 Our group regularly has openings for motivated __Postdocs__ as well as __PhD__, __Master__, and __Bachelor__ students. If you are interested, please [contact us]({{< ref "#contact" >}}).
 
-Project topics include entanglement in quantum many-body systems, quantum simulation of lattice gauge theories and other many-body phenomena, as well as quantum annealing and quantum computation.
-For more information, see [research]({{< ref "#research" >}}).
-
----
-
-We are associated partner of the recently approved project EnerQuant. Within a consortium consisting of Heidelberg University, Fraunhofer Institute for Industrial Mathematics (ITWM), and JoS QUANTUM GmbH, [a theory postdoc position is available](https://www.kip.uni-heidelberg.de/mitarbeit/postdocs.php?details=450) to work on quantum annealing with ultracold atomic mixtures.
-
----
+Project topics include entanglement in quantum many-body systems, quantum simulation of lattice gauge theories and other many-body phenomena. For more information, see [research]({{< ref "#research" >}}).
