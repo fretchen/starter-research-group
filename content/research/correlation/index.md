@@ -1,6 +1,7 @@
 ---
 title: Correlations
 summary: Tracing quantum waves
+type: project
 # tags:
 
 # Short title used in page links (if not set, defaults to title)
@@ -44,5 +45,5 @@ slides: ""
 math: true
 ---
 
-If one throws a rock into a calm pond, circular waves spread around the position where it hit the surface. Several seconds later one can still reconstruct the position of the impact from the waves it caused. How well two events (rock impact and waves) at different positions and times are correlated, tells us something about how regular or chaotic the dynamics of a system is. If it was windy and the pond surface wasn't calm but turbulent, the regular waves would disappear much more quickly. The general physical concept behind this simple observation is the one of dynamical response functions. Measuring these objects requires to measure correlations between different positions and times. 
+If one throws a rock into a calm pond, circular waves spread around the position where it hit the surface. Several seconds later one can still reconstruct the position of the impact from the waves it caused. How well two events (rock impact and waves) at different positions and times are correlated, tells us something about how regular or chaotic the dynamics of a system is. If it was windy and the pond surface wasn't calm but turbulent, the regular waves would disappear much more quickly. The general physical concept behind this simple observation is the one of dynamical response functions. Measuring these objects requires to measure correlations between different positions and times.
 In the lab, we can prepare and control quantum systems nearly perfectly and thus study these correlation functions in engineered model systems. The ability to resolve the dynamical response function in such highly tunable systems allows us to study the transition from regular to chaotic behavior. An additional twist is added by the fact that we can also time-reverse the dynamics, i.e. let the waves propagate backwards again. If, before starting the backwards evolution, the wave pattern is displaced slightly, in a regular system, the waves will refocus near the original impact position of the rock, but in a chaotic system, they might not refocus at all...
