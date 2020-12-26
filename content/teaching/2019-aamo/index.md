@@ -1,7 +1,7 @@
 ---
 title: 'Advanced AMO'
 subtitle: 'Winter semester 2019'
-summary: "In this lecture, Philipp Hauke will discuss fundamentals of quantum computers, concepts from quantum-information theory, and various experimental platforms."
+summary: "All you ever wanted to know about AMO"
 authors:
 - hauke
 # tags:
@@ -29,6 +29,4 @@ image:
 projects: []
 ---
 
-In the upcoming summer semester, I am giving again a [lecture about Quantum Computing](https://webapps.unitn.it/du/en/Persona/PER0215513/Didattica).
-
-In this lecture, I will discuss fundamentals of quantum computers, concepts from quantum-information theory, and various experimental platforms. Through theoretical lectures and practical exercises, we will understand functioning, possibilities, and limitations of state-of-the-art quantum computers.
+More details to come.

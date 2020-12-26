@@ -1,14 +1,13 @@
 ---
 title: Correlations
 summary: Tracing quantum waves
-type: project
 # tags:
 
 # Short title used in page links (if not set, defaults to title)
 title_short: Measurement Tools
 
 # Determines ordering of projects
-weight: 4
+weight: 1
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
