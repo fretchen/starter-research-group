@@ -13,7 +13,7 @@ weight: 2
 external_link: ""
 
 image:
-  caption: "A first building block for ultracold atoms (source: [Sci. Adv. 2015;1:e1500838](/publication/2015-lechner))"
+  caption: ""
   focal_point: Smart
 
 # links:
